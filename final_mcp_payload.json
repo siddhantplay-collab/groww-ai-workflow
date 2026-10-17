@@ -1,0 +1,15 @@
+{
+    "date": "2026-10-17",
+    "top_themes": [
+        "DP Charges & Fees",
+        "App Performance/Lag",
+        "Customer Support"
+    ],
+    "weekly_pulse": "## Weekly Product Pulse\n\n### Summary of Top Themes\n1. **DP Charges & Fees**: High user dissatisfaction surrounding unexpected fee deductions during stock sell execution.\n2. **App Performance/Lag**: Intermittent latency during peak market opening hours.\n3. **Customer Support**: Delayed turnarounds for query resolutions.\n\n### Supporting User Quotes\n> \"Why was ₹15.93 deducted from my account when I sold my shares? Groww says zero brokerage but they are charging hidden fees every time I sell!\"\n> \"Groww claims no hidden charges, but I noticed a DP charge being deducted on my sell orders.\"\n> \"I hate that every time I sell even a single stock, ₹15.93 is gone as a Depository Participant charge.\"\n\n### Key Observation\nUsers perceive DP (Depository Participant) charges as \"hidden fees\" due to zero-brokerage marketing messaging. The fee deduction is not surfaced clearly before the user confirms a sell order.\n\n### Action Ideas for Product Team\n1. **Pre-trade Tooltip**: Display a breakdown itemizing DP charges directly on the sell confirmation screen.\n2. **Zero-Brokerage Clarification Banner**: Add an inline banner on the pricing page explicitly clarifying exchange, regulatory, and DP fees versus Groww brokerage.\n3. **Automated Support Bot Snippet**: Deploy a proactive chatbot banner when users submit tickets regarding sell balance deductions.\n",
+    "identified_fee_issue": "Users are confused about Depository Participant (DP) charges (₹13.5 + GST / ₹15.93) deducted on stock sell transactions despite advertised zero brokerage.",
+    "explanation_bullets": "### Understanding Depository Participant (DP) Charges on Groww\n\n- **What is a DP Charge?**: A flat fee charged by the depository (CDSL) and the depository participant (Groww) whenever you sell shares from your demat account.\n- **When is it applied?**: DP charges are applicable **once per stock per trading day** upon selling, regardless of the quantity sold.\n- **Groww Brokerage vs. DP Charge**: While Groww offers zero brokerage on delivery trades, DP charges are mandatory depository pass-through charges.\n- **Current Fee Structure**: Standard DP charges are ₹13.5 + 18% GST (totaling ₹15.93) per company per day sold.\n- **Transparency**: DP charges are deducted from your trade delivery realization balance at the end of the trading day.\n\n**Last checked:** 2026-10-17\n\n**Official Sources:**\n1. https://groww.in/pricing\n2. https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-margin/what-are-dp-charges-depository-participant-charges-1\n",
+    "source_links": [
+        "https://groww.in/pricing",
+        "https://groww.in/help/stocks,-f&o,-ipo-&-mtf/sx-margin/what-are-dp-charges-depository-participant-charges-1"
+    ]
+}
